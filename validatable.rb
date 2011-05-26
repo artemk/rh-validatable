@@ -1,4 +1,4 @@
-
+require 'core_ext/blank'
 require 'validatable/object_extension'
 require 'validatable/errors'
 require 'validatable/validatable_class_methods'
