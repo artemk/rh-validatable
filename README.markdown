@@ -16,7 +16,10 @@ First you have to add *rh-validatable* to **build.yml**
 
       extensions:
       - rh-validatable
+At the top of application.rb add:
 
+      require "validatable"
+      
 Include module to your model:
 
       class Account
